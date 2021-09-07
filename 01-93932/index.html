@@ -8,5 +8,68 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="pin-pad">
+      <div class="container">
+        <h1 class="pin-pad_header">Set your 4 digit pin</h1>
+        <div class="pin-pad_outputs">
+          <input
+            readonly
+            type="password"
+            maxlength="1"
+            name="pin-ch1"
+            class="pin-pad_output pin-pad_output--1"
+            id="pin-ch1"
+          />
+          <input
+            readonly
+            type="password"
+            maxlength="1"
+            name="pin-ch2"
+            class="pin-pad_output pin-pad_output--2"
+            id="pin-ch2"
+          />
+          <input
+            readonly
+            type="password"
+            maxlength="1"
+            name="pin-ch3"
+            class="pin-pad_output pin-pad_output--3"
+            id="pin-ch3"
+          />
+          <input
+            readonly
+            type="password"
+            maxlength="1"
+            name="pin-ch4"
+            class="pin-pad_output pin-pad_output--4"
+            id="pin-ch4"
+          />
+        </div>
+        <div class="pin-pad_inputs">
+          <button class="pin-pad_input pin-pad_input--0">0</button>
+          <button class="pin-pad_input pin-pad_input--1">1</button>
+          <button class="pin-pad_input pin-pad_input--2">2</button>
+          <button class="pin-pad_input pin-pad_input--3">3</button>
+          <button class="pin-pad_input pin-pad_input--4">4</button>
+          <button class="pin-pad_input pin-pad_input--5">5</button>
+          <button class="pin-pad_input pin-pad_input--6">6</button>
+          <button class="pin-pad_input pin-pad_input--7">7</button>
+          <button class="pin-pad_input pin-pad_input--8">8</button>
+          <button class="pin-pad_input pin-pad_input--9">9</button>
+          <button class="pin-pad_input pin-pad_input--clear">C</button>
+          <button class="pin-pad_input pin-pad_input--back-space">←</button>
+        </div>
+        <h4 class="pin-pad_question">Why do I need to set my pin?</h4>
+        <div class="pin-pad_nav-buttons">
+          <a href="" class="pin-pad_nav-button pin-pad_nav-button--secondary">
+            Back
+          </a>
+          <a href="" class="pin-pad_nav-button pin-pad_nav-button--primary">
+            Next
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
