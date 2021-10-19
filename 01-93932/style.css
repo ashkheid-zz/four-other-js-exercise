@@ -55,7 +55,7 @@ body {
   cursor: default;
 }
 
-/* .pin-pad_inputs {
+.pin-pad_inputs {
   display: grid;
   grid-template-columns: repeat(3, 3em);
   grid-template-areas:
@@ -65,7 +65,7 @@ body {
     "clr num0 bks";
   place-content: center;
   gap: 0.5em;
-} */
+} 
 
 .pin-pad_input {
   width: 3em;
